@@ -1,10 +1,7 @@
-<template>
-  <!--<Tutorial/>-->
-  <div class="container">
-    <h1 class="title">
-      Hello World hoge
-    </h1>
-  </div>
+<template lang="pug">
+  .container
+    h1.title
+      | Hello World hoge
 </template>
 
 <script>
@@ -12,3 +9,14 @@ export default {
   // name: 'IndexPage'
 }
 </script>
+
+<style lang="scss">
+.red {
+  color: red
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+</style>
