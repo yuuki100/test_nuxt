@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 .red {
   color: red
 }
