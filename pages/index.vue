@@ -2,6 +2,10 @@
   .container
     h1.title
       | Hello World hoge
+
+    a(href="hoge/hoge") hogelink
+    br
+    a(href="test/test_store") test_store_link
 </template>
 
 <script>
@@ -10,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .red {
   color: red
 }
